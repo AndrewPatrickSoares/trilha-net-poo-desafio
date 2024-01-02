@@ -8,7 +8,8 @@ namespace DesafioPOO.Models
         }
         public override void InstalarAplicativo(string nomeApp)
         {
-            Console.WriteLine($"Instalando o aplicativo: {nomeApp} no Iphone!");
+            string aspas = "\"";
+            Console.WriteLine($"Instalando o aplicativo: {aspas}{nomeApp}{aspas} no Iphone!");
         }
     }
 }

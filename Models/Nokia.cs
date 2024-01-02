@@ -8,7 +8,8 @@ namespace DesafioPOO.Models
         }
         public override void InstalarAplicativo(string nomeApp)
         {
-            Console.WriteLine($"Intalando o aplicativo: {nomeApp} no Nokia");
+            string aspas = "\"";
+            Console.WriteLine($"Intalando o aplicativo: {aspas}{nomeApp}{aspas} no Nokia!");
         }
 
     }
